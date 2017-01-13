@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="tbsignal",
-    version='0.1.1',
+    version='0.2.0',
     description="Angelcam traceback signal handler",
     keywords="traceback signal",
     author="Angelcam",
