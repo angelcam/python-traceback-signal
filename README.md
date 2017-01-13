@@ -31,3 +31,10 @@ tbsignal.register_handler()
 tbsignal.register_handler(signal.SIGINT)
 ```
 
+To trigger the traceback print, simply run the following command from another
+terminal:
+
+```
+kill -SIGUSR1 pid
+```
+
